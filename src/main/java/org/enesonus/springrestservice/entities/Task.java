@@ -1,4 +1,4 @@
-package org.enesonus.restservice.entities;
+package org.enesonus.springrestservice.entities;
 
 import jakarta.persistence.*;
 import org.hibernate.annotations.CreationTimestamp;
@@ -21,7 +21,8 @@ public class Task {
     @Lob
     private String description;
 
-    @Column(nullable = false, columnDefinition = "varchar(20) not null default 'PENDING'")
+    @Column(nullable = false,
+            columnDefinition = "varchar(20) not null default 'PENDING'")
     @Enumerated(EnumType.STRING)
     private TaskStatusEnum status;
 
@@ -29,7 +30,8 @@ public class Task {
     private Date dueDate;
 
     @CreationTimestamp
-    @Column(updatable = false, name = "created_at")
+    @Column(updatable = false,
+            name = "created_at")
     private Date createdAt;
 
     @UpdateTimestamp

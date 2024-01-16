@@ -1,4 +1,4 @@
-package org.enesonus.restservice.entities;
+package org.enesonus.springrestservice.entities;
 
 public enum TaskStatusEnum {
     PENDING,

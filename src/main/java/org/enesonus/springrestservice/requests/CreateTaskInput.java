@@ -1,8 +1,8 @@
-package org.enesonus.restservice.requests;
+package org.enesonus.springrestservice.requests;
 
 
-import org.enesonus.restservice.entities.Task;
-import org.enesonus.restservice.entities.TaskStatusEnum;
+import org.enesonus.springrestservice.entities.Task;
+import org.enesonus.springrestservice.entities.TaskStatusEnum;
 
 import java.util.Date;
 

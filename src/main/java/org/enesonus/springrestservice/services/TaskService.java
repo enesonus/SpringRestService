@@ -1,12 +1,12 @@
-package org.enesonus.restservice.services;
+package org.enesonus.springrestservice.services;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.stereotype.Service;
 
-import org.enesonus.restservice.entities.Task;
-import org.enesonus.restservice.repositories.TaskRepository;
+import org.enesonus.springrestservice.entities.Task;
+import org.enesonus.springrestservice.repositories.TaskRepository;
 
 @Service
 public class TaskService {

@@ -1,4 +1,4 @@
-package org.enesonus.restservice;
+package org.enesonus.springrestservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,9 +1,9 @@
-package org.enesonus.restservice.controllers;
+package org.enesonus.springrestservice.controllers;
 
-import org.enesonus.restservice.entities.Task;
-import org.enesonus.restservice.requests.CreateTaskInput;
-import org.enesonus.restservice.requests.UpdateTaskInput;
-import org.enesonus.restservice.services.TaskService;
+import org.enesonus.springrestservice.entities.Task;
+import org.enesonus.springrestservice.requests.CreateTaskInput;
+import org.enesonus.springrestservice.requests.UpdateTaskInput;
+import org.enesonus.springrestservice.services.TaskService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
